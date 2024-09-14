@@ -8,9 +8,6 @@ def home():
     return "Hello, Flask!"
 
 # Define a route with a dynamic segment (e.g., user/<name>)
-@app.route('/arogya')
-def takuli():
-    return "Arogya Full Stack Developer"
 
 @app.route('/ayush')
 def ayush():
