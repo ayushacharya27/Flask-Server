@@ -12,5 +12,9 @@ def home():
 def takuli():
     return "Arogya Full Stack Developer"
 
+@app.route('/ayush')
+def ayush():
+    return "Ayush"
+
 if __name__ == '__main__':
     app.run()
